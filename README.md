@@ -28,4 +28,4 @@ This project is an Angular 18 application designed to manage and display user in
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Baraa-Nayyal/Angular-User-Api
