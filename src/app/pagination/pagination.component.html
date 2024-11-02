@@ -1,0 +1,19 @@
+<div class="pagination-controls pagination">
+  <button
+    (click)="onPageChange(currentPage - 1)"
+    [disabled]="currentPage === 1"
+    mat-mini-fab
+    aria-label="Example icon button with a home icon"
+  >
+    <mat-icon>navigate_before</mat-icon>
+  </button>
+  <span>{{ currentPage }} / {{ totalItems }}</span>
+  <button
+    (click)="onPageChange(currentPage + 1)"
+    [disabled]="currentPage === totalItems"
+    mat-mini-fab
+    aria-label="Example icon button with a home icon"
+  >
+    <mat-icon>navigate_next</mat-icon>
+  </button>
+</div>

@@ -1,0 +1,23 @@
+/* Set body and html to full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-color: #111; /* Neutral 900 */
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* The blurred overlay effect */
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-color: #f0f; /* Fuchsia color */
+  background-size: 20px 20px;
+  opacity: 0.2;
+  filter: blur(100px);
+  z-index: -1;
+}

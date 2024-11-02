@@ -1,0 +1,11 @@
+<div *ngIf="loading$ | async; else userDetails" class="loading-spinner">
+  <mat-spinner></mat-spinner>
+</div>
+<ng-template #userDetails>
+  <div *ngIf="user$ | async as user" class="user-details" [@fadeIn]>
+    <img [src]="user.avatar" alt="{{ user.first_name }} {{ user.last_name }}" />
+    <h1>{{ user.first_name }} {{ user.last_name }}</h1>
+    <p>Email: {{ user.email }}</p>
+    <a routerLink="/">Back to User List</a>
+  </div>
+</ng-template>
