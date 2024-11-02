@@ -1,5 +1,3 @@
-# User Management System
-
 ## Overview
 
 This project is an Angular 18 application designed to manage and display user information fetched from an external API. It features a user-friendly interface with a paginated list of users and individual user detail views. 
