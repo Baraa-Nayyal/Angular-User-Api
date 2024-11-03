@@ -30,12 +30,12 @@ This project is an Angular 18 application designed to manage and display user in
    ```bash
    git clone https://github.com/Baraa-Nayyal/Angular-User-Api
 
-2. **Install dependencies**
+2. **Install dependencies:**
 
    ```bash
    npm install
 
-3. **Start the project**
+3. **Start the project:**
 
    ```bash
    ng serve
